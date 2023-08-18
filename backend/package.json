@@ -11,6 +11,7 @@
   "author": "PatrickT",
   "license": "ISC",
   "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.2.0",
     "@azure/cognitiveservices-websearch": "^3.0.1",
     "@azure/ms-rest-azure-js": "^2.1.0",
     "chai": "^4.3.7",
