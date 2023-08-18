@@ -1,8 +1,10 @@
 const express = require('express');
 const https = require('https');
+const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 4000; // Change to your desired port
 app.use(express.json());
+app.use(cors());
 
 app.get('/TurnersCars', (req, res) => {
   let subscriptionKey = '7825de3e46804f8b8ea48ec323aa494a';
